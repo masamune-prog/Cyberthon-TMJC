@@ -52,7 +52,7 @@ This command takes advantage of  escape_r['body']['static'] = !![];
 We want to move ourselves out of the box and by defining the coordinates we can get the flag
 
 
-![Escaped from cage](
+![Escaped from cage](https://github.com/masamune-prog/Cyberthon-TMJC/blob/master/Cyberthon2020_Writeups-master/web_services/caged-up/Teleport.JPG)
 
 ## Flag
 
