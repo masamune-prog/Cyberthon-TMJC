@@ -47,9 +47,12 @@ There needs to be a hole with two neighboring missing sprites to break out of th
 
 
 ## Alternative solution
-In console, enter escape_r.y = 400
+In console, enter escape_r.y = 350
 This command takes advantage of  escape_r['body']['static'] = !![];  
 We want to move ourselves out of the box and by defining the coordinates we can get the flag
+
+
+![Escaped from cage](
 
 ## Flag
 
