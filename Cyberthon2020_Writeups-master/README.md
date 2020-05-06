@@ -20,7 +20,7 @@ Written by: hci-1
 * [x] Baba-OAuth
 * [X] Vote
 * [x] Search high and low, you should. Yeesssssss
-* [x] Caged Up
+* [x] Caged Up( With additional solution)
 * [x] WikiShellFall (somewhat incomplete)
 
 ### CSIT
