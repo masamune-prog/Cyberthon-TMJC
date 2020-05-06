@@ -9,6 +9,8 @@ NOTE: You do not have to compromise/pen-test the webserver
 
 ## Solution
 
+## There are 2
+
 Opening up DevTools, we are greeted with a console message from [Phaser](https://phaser.io/):
 
 ![Image of DevTools with message from Phaser](https://raw.githubusercontent.com/willi123yao/Cyberthon2020_Writeups/master/web_services/caged-up/1.png)
@@ -42,6 +44,12 @@ This is because the children are in groups, and have to be [removed by the paren
 There needs to be a hole with two neighboring missing sprites to break out of the cage because the protagonist is fat, so keep deleting away and you'll eventually break out. If you delete Mr. Protagonist, just refresh the page and try again.
 
 ![Broke out of cage](https://raw.githubusercontent.com/willi123yao/Cyberthon2020_Writeups/master/web_services/caged-up/6.png)
+
+
+## Alternative solution
+In console, enter escape_r.y = 400
+This command takes advantage of  escape_r['body']['static'] = !![];  
+We want to move ourselves out of the box and by defining the coordinates we can get the flag
 
 ## Flag
 
